@@ -31,7 +31,7 @@ const incrementLikes = () => {
           src={props.post.imageUrl}
         />
       </div>
-      <LikeSection post={props.post} likes={likes} setLikes={setLikes} incrementLikes={incrementLikes}/>
+      <LikeSection likes={likes} incrementLikes={incrementLikes}/>
       <CommentSection
         postId={props.post.imageUrl}
         comments={props.post.comments}
